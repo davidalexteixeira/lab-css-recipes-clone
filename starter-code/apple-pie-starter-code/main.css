@@ -60,15 +60,45 @@ h3 {
     height: 70px;
 }
 
-#bruh{
-    background-image: url('apple-pie.jpg');
-    background-size: 75%;                     
-    background-position: center;
-    background-repeat: no-repeat;
-    background-clip: border-box;
 
+.landing-page-wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
 }
 
+.full-width {
+    width: 100%; 
+    position: relative;
+}
+
+.section-module {  
+    position: relative;
+    width: 100%;  
+  }
+
+  .section-module picture { 
+    position: relative; 
+    display: block; 
+  }
+  .section-module img {
+    width: 100%;
+    display: block;
+    outline: 0;
+  }
+
+.custom-positioning {
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 44px;
+    color: #ffff; 
+    text-transform: uppercase;
+}
 /* ---- layout ---- */
 
 #site-header {}
